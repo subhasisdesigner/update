@@ -1,1 +1,50 @@
 @import "../src/asset/Sass/main.scss";
+
+
+
+
+.loading-wrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: block;
+    width: 25%;
+    border-radius: 6px;
+    margin: auto;
+    min-height: 80px;
+}
+
+
+.state-pending {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    text-align: center;
+
+}
+.state-pending img{border-radius: 15px;}
+
+#under_duild {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    overflow: hidden;
+}

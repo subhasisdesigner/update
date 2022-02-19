@@ -1,8 +1,6 @@
 import React from "react";
-
 import ContentViewer from "./ContentViewer";
 import LeftPanel from "./leftPanel/LeftPanel";
-
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
