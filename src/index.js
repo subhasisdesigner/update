@@ -7,9 +7,10 @@ import underBuildPic from './asset/construction.png'
 ReactDOM.render(
   <BrowserRouter>
   <div id="under_duild">
-  <div class="loading-wrapper">
-    <div class="loader-container">
-        <div class="state-pending">
+  <div className="loading-wrapper">
+    <div className="loader-container">
+        <div className="state-pending">
+          <span className="Under">Under Construction Project</span>
             <img src={underBuildPic}/>
         </div>
     </div>
