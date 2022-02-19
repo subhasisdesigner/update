@@ -26,7 +26,15 @@
     min-height: 80px;
 }
 
-
+.state-pending .copy_right{
+    padding: 15px;
+    bottom: 275px;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: auto;
+    font-size: 0.8em;
+}
 .state-pending {
     position: absolute;
     top: 50%;
