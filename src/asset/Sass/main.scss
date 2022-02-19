@@ -1,0 +1,46 @@
+@import "../../asset/Sass/index";
+body {
+    font-family: "Segoe UI",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    background-color: $body-color;
+    background: $body-color;
+    font-weight: $Medium !important;
+
+  }
+  #root, body, html {
+    overflow-x: hidden;
+    height: 100%;
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    width: $six;
+    height: $six;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.2);
+    border-radius: $six;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  #root, .MuiDrawer-paper, body, html {
+    scrollbar-width: thin;
+    scrollbar-color: #e3e3e3 transparent;
+  }
+  a{color: black;text-decoration: none;}
+  h1,h2,h3,h4,h5,h6,p{padding: 0px; margin: 0px; font-weight: $Medium !important;}
+
+  .d_flex{display: $flex;}
+  img{width: $hundred-parents;}
+.main_content{
+    padding: 25px 45px !important;
+}
+.main_body {min-height: $hundred-parents;}
+
+  

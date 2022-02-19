@@ -1,0 +1,68 @@
+@import "../index";
+
+.content_profile p{color:$primery-color;margin-bottom: 6px;}
+.content_profile h5{
+    margin-top: 10px;
+    color: $gray;
+}
+.align-items{align-items:$align-center}
+.content_profile h2{
+    font-size: 2.5em;
+}
+.work_profile_body .work_profile_text{
+    @include flex-box-space;
+    margin-bottom: $forty-five;
+}
+.work_profile_body .work_profile_text::after{
+    content: "";
+    width: 60px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: $primery-color;
+}
+.work_profile h4{
+    color: $primery-color;
+    margin-bottom: 10px;
+}
+.work_profile{margin-top: $thirty-two;}
+.project_pic{
+    width: 150px;
+    height: 75px;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgba(57,56,56,0.1);
+-webkit-box-shadow: 10px 10px 20px 0px rgba(57,56,56,0.1);
+-moz-box-shadow: 10px 10px 20px 0px rgba(57,56,56,0.1);
+}
+.project_pic img{border-radius: 5px;}
+.project_body{
+    display: flex !important;
+    justify-content: flex-start !important;
+    padding: 5px !important;
+    background-color: $white !important;
+    border-radius: 5px !important;
+    gap: 17px;
+}
+.project_info{flex-grow: $one;}
+.project_info span{
+    position: absolute;
+    right: 17px;
+    color: $primery-color;
+    bottom: 13px;
+}
+.project_info h3{
+    font-size: 1.1em;
+    font-weight: 600 !important;
+    margin-bottom: $five;
+    color: $work-profile-main;
+}
+.project_info p{
+    width: 60%;
+    font-size: .9em;
+    color: $work-profile-sub;
+}

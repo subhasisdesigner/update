@@ -1,0 +1,54 @@
+@use "variable";
+@use "colors";
+
+@mixin box-shadow {
+    box-shadow: 1px 5px 18px 0px rgba(130,127,127,0.75);
+    -webkit-box-shadow: 1px 5px 18px 0px rgba(130,127,127,0.75);
+    -moz-box-shadow: 1px 5px 18px 0px rgba(130,127,127,0.75);
+    
+}
+@mixin flex-box-column {
+    display: variable.$flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+@mixin flex-box-space {
+    display: variable.$flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+@mixin flex-box-center {
+    display: variable.$flex; flex-direction: column; align-items: center;    
+}
+
+@mixin social-media-box-shadow {
+    box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.29);
+}
+
+@mixin menu-item-flex-box {
+    display: variable.$flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@mixin flex-box {
+    display: variable.$flex;
+    align-items: center;
+}
+
+@mixin menu-icon {    
+    background: colors.$body-color;
+    padding: variable.$eight;
+    font-size: 1.3em;
+    border-radius: variable.$ten;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.09);
+-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.09);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.09);
+}
+@mixin copy-right {
+    
+}
+
+

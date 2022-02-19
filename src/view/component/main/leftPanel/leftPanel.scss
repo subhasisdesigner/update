@@ -1,0 +1,126 @@
+@import "../../../../asset/Sass/index";
+
+.active_menu{color: $primery-color;}
+
+.my_pic{
+    width:$forty-five;
+    height: $forty-five;
+    overflow: hidden;
+    border-radius: $fifty-parents;
+    object-fit: contain;
+    flex-shrink: 0;
+    border: 2px solid $white;
+   @include box-shadow;
+}
+.left_panel_body{
+    min-height: $hundred-parents;
+}
+.left_panel {
+    min-height: $hundred-parents;
+}
+.menu_sidebar{
+    background: $primery-color; 
+    min-height: $hundred-parents;
+    border-radius: 0 40px 30px 0;
+    padding: 25px 5px 20px 5px;
+    @include flex-box-column;
+    box-shadow: 1px 2px 18px 0px rgba(36,151,251,0.44);
+-webkit-box-shadow: 1px 2px 18px 0px rgba(36,151,251,0.44);
+-moz-box-shadow: 1px 2px 18px 0px rgba(36,151,251,0.44);
+}
+.menu{
+    flex-grow: $one;
+    padding: 25px 15px 15px 25px;
+}
+.left_panel {
+    background: $white;
+    border-radius: 0 40px 30px 0;
+}
+.left_panel_body .MuiPaper-root{
+    border-radius: 0 40px 30px 0;
+    border: 0;
+}
+.social_media{@include flex-box-center;margin-bottom: 95px;}
+.social_media i{font-size: 0.8em;}
+.social_media a{margin-top: 15px;}
+.facebook{
+    background-color:$facebook !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+.whatsapp{
+    background-color:$whatsapp !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+.skype{
+    background-color:$skype !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+.mail{
+    background-color:$mail !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+.linkedin{
+    background-color:$linkedin !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+.phone{
+    background-color:$phone !important;
+    @include social-media-box-shadow ;
+    color: $white !important;
+}
+
+.profile p{
+        font-size: 0.75em;
+        font-weight: 600;
+        color: $primery-color;
+}
+
+.profile h1{
+        font-size: 1.1em;
+        font-weight: 500;    
+}
+.menu_item{
+    @include menu-item-flex-box;
+    margin-top: 55px;    
+}
+.menu_item a{
+    @include flex-box;
+    color: $gray;
+    font-size: 0.9em;
+    font-weight: $Medium;
+    gap: 16px;
+}
+.menu_item a i{@include menu-icon; }
+.introduction i{color: $introduction;}
+.skills i{color: $skills;}
+.work i{color: $work;}
+.education i{color: $education;}
+.professional i{color: $professional;}
+.contact i{color: $contact;}
+.copy_right{
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 12px 45px 12px 15px;
+    gap: 10px;
+    background-color: #EFF8FF;
+    border-radius: 80px 25px 80px 25px;
+    border: 1px solid #8BC9F5;
+}
+.copy_right i{
+    font-size: 1.4em;
+    color: $primery-color;
+}
+.copy_right strong{
+    color: $primery-color;
+}
+.copy_right span{
+    font-size: 0.8em;
+}
