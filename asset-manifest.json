@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/update/static/css/main.50d7e4f0.css",
-    "main.js": "/update/static/js/main.7958dfea.js",
+    "main.css": "/update/static/css/main.e7b8b8ff.css",
+    "main.js": "/update/static/js/main.168658c8.js",
     "static/media/Profile1.png": "/update/static/media/Profile1.a99d468ef54711c9ed1f.png",
     "static/media/myProject.png": "/update/static/media/myProject.ba7de53ef0a6ef195cad.png",
+    "static/media/construction.png": "/update/static/media/construction.70288aa822221caa1637.png",
     "static/media/NDHGO-Logo.png": "/update/static/media/NDHGO-Logo.65a77e1359073e0f1268.png",
     "static/media/subhasis_santra.jpg": "/update/static/media/subhasis_santra.6943f9b3c1a11ea68177.jpg",
     "index.html": "/update/index.html",
-    "main.50d7e4f0.css.map": "/update/static/css/main.50d7e4f0.css.map",
-    "main.7958dfea.js.map": "/update/static/js/main.7958dfea.js.map"
+    "main.e7b8b8ff.css.map": "/update/static/css/main.e7b8b8ff.css.map",
+    "main.168658c8.js.map": "/update/static/js/main.168658c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.50d7e4f0.css",
-    "static/js/main.7958dfea.js"
+    "static/css/main.e7b8b8ff.css",
+    "static/js/main.168658c8.js"
   ]
 }
