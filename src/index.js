@@ -10,8 +10,7 @@ ReactDOM.render(
   <div className="loading-wrapper">
     <div className="loader-container">
         <div className="state-pending">
-          <span className="Under">Under Construction</span>  
-          
+          <span className="Under">Under Construction </span>  
           <img src={underBuildPic}/>
         </div>
     </div>
