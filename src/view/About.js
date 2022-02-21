@@ -21,7 +21,7 @@ export default function About() {
   }, []);
   return (
     <div className="App">
-      about
+      about me
     </div>
   );
 }
