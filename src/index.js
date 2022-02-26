@@ -7,7 +7,7 @@ import underBuildPic from './asset/construction.png'
 
 ReactDOM.render(
   <BrowserRouter>
-  <div id="under_duild">
+  {/* <div id="under_duild">
   <div className="loading-wrapper">
     <div className="loader-container">
         <div className="state-pending">
@@ -16,7 +16,7 @@ ReactDOM.render(
         </div>
     </div>
 </div>
-  </div>
+  </div> */}
     <App />
   </BrowserRouter>,
   document.getElementById('root')
