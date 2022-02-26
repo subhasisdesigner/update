@@ -29,6 +29,7 @@ export default function Main(props) {
         aria-label="mailbox folders"
       >
          <IconButton
+            className="menu_bar"
             color="inherit"
             aria-label="open drawer"
             edge="start"
