@@ -7,8 +7,8 @@ import Error from '../../Error/Error';
 export default function ContentViewer(){
   return(
         <Switch>
-        <Route exact path="/" component={LandingPage} loading/>
-        <Route exact path="/About" component={About} loading/>
+        <Route exact path="update/" component={LandingPage} loading/>
+        <Route exact path="update/About" component={About} loading/>
         <Route component={Error}/>
       </Switch>      
   );
