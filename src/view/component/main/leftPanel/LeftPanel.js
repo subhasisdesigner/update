@@ -39,8 +39,8 @@ export default function LeftPanel() {
           <h1>Subhasis Santra</h1>
         </div>
         <div className="menu_item">
-      <NavLink exact className="introduction" activeClassName="active_menu" to="update/"><i class="ri-mic-fill"></i>Introduction</NavLink>
-      <NavLink exact className="skills" activeClassName="active_menu" to="update/about"><i class="ri-user-settings-fill"></i>Skills & Knowledge</NavLink>
+      <NavLink exact className="introduction" activeClassName="active_menu" to="/"><i class="ri-mic-fill"></i>Introduction</NavLink>
+      <NavLink exact className="skills" activeClassName="active_menu" to="/about"><i class="ri-user-settings-fill"></i>Skills & Knowledge</NavLink>
       <NavLink exact className="work" activeClassName="active_menu" to="/"><i class="fas fa-tools"></i>Work Profile</NavLink>
       <NavLink exact className="education" activeClassName="active_menu" to="/about"><i class="fas fa-book-reader"></i>Education</NavLink>
       <NavLink exact className="professional" activeClassName="active_menu" to="/"><i class="fas fa-user-graduate"></i>Professional Qualifications</NavLink>
