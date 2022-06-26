@@ -8,7 +8,7 @@ export default function UnderWork() {
       <div className="loading_wrapper">
         <div className="loader_container">
           <div className="state_pending">
-            <span className="Under">Under Construction</span>
+            <span className="Under"> This project work in progress</span>
             <img src={underBuildPic} />
           </div>
         </div>
