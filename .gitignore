@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-../under_working
+./under_working
 /.pnp
 .pnp.js
 
