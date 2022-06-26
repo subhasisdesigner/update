@@ -1,6 +1,10 @@
 @import "../src/asset/Sass/main.scss";
 
 
+.d-none {
+    display: none;
+}
+
 .loading_wrapper {
     position: fixed;
     z-index: 9999;
