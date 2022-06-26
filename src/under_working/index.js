@@ -4,7 +4,7 @@ import underBuildPic from '../asset/construction.png'
 
 export default function UnderWork() {
   return (
-    <div id="under_duild">
+    <div id="under_duild" style={{ display: 'none' }}>
       <div className="loading_wrapper">
         <div className="loader_container">
           <div className="state_pending">
