@@ -1,11 +1,11 @@
 import React from "react";
 import './index.scss';
 
-import Main from './view/component/main/Main';
+import MainView from './Config/MainView';
 
 export default function App() {
   return (
-      <Main/>
+    <MainView />
   );
 }
 

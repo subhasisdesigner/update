@@ -1,7 +1,7 @@
-import React,{ useEffect, useState, useContext } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { LoadingContext } from "react-router-loading";
 
-import loadData from "../view/component/main/LoadingBar"
+import loadData from "../../Config/LoadingBar"
 
 export default function About() {
   const [state, setState] = useState();

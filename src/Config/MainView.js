@@ -1,6 +1,6 @@
 import React from "react";
-import ContentViewer from "./ContentViewer";
-import LeftPanel from "./leftPanel/LeftPanel";
+import ContentViewer from "./ContentRoute";
+import LeftPanel from "../view/component/leftPanel/LeftPanel";
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 
 
-export default function Main(props) {  
+export default function MainView(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -17,31 +17,33 @@ export default function Main(props) {
   };
   const drawerWidth = 320;
   const drawer = (
-      <LeftPanel/>
+    <LeftPanel />
   );
   const container = window !== undefined ? () => window().document.body : undefined;
   return (
-    <Box className="main_body d_flex">             
+    <Box className="main_body d_flex">
       <Box
-      className="left_panel_body"
+        className="left_panel_body"
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
         aria-label="mailbox folders"
       >
-         <IconButton
-            className="menu_bar"
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            position="fixed"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, 
+        <IconButton
+          className="menu_bar"
+          color="inherit"
+          aria-label="open drawer"
+          edge="start"
+          position="fixed"
+          onClick={handleDrawerToggle}
+          sx={{
+            mr: 2, display: { sm: 'none' },
             width: { sm: `calc(100% - ${drawerWidth}px)` },
-            ml: { sm: `${drawerWidth}px` },}}
-          >
-            <MenuIcon />
-          </IconButton>
-       {/* mobile view */}
+            ml: { sm: `${drawerWidth}px` },
+          }}
+        >
+          <MenuIcon />
+        </IconButton>
+        {/* mobile view */}
         <Drawer
           container={container}
           variant="temporary"
@@ -57,9 +59,9 @@ export default function Main(props) {
         >
           {drawer}
         </Drawer>
-         {/*end mobile view */}
+        {/*end mobile view */}
 
-          {/* desktop view */}
+        {/* desktop view */}
         <Drawer
           variant="permanent"
           sx={{
@@ -70,14 +72,14 @@ export default function Main(props) {
         >
           {drawer}
         </Drawer>
-         {/*end desktop view */}
+        {/*end desktop view */}
       </Box>
       <Box
-     className="main_content"
+        className="main_content"
         component="main"
         sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
       >
-      <ContentViewer/>
+        <ContentViewer />
       </Box>
     </Box>
   );
