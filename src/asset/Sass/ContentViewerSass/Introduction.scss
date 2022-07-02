@@ -1,23 +1,5 @@
 @import "../index";
 
-.content_profile {
-    & p {
-        color: $primery-color;
-        margin-bottom: 6px;
-    }
-
-    & h2 {
-        font-size: 2.5em;
-    }
-
-    & h5 {
-        margin-top: 10px;
-        color: $gray;
-    }
-
-
-}
-
 .align-items {
     align-items: $align-center
 }
@@ -51,7 +33,7 @@
     display: flex !important;
     justify-content: flex-start !important;
     padding: 5px !important;
-    background-color: $white !important;
+    background-color: $white  !important;
     border-radius: 5px !important;
     gap: 17px;
 
@@ -97,10 +79,4 @@
         font-size: .9em;
         color: $work-profile-sub;
     }
-}
-
-.techwelfare_project .MuiAvatar-root {
-    width: 120px;
-    height: 130px;
-    border-radius: 5px;
 }

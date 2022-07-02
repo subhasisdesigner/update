@@ -1,6 +1,6 @@
 import React from "react";
 import ContentViewer from "./ContentRoute";
-import LeftPanel from "../view/component/leftPanel/LeftPanel";
+import LeftPanel from "../view/component/leftPanel";
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
