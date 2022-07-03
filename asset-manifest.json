@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/update/static/css/main.803a9051.css",
-    "main.js": "/update/static/js/main.56227a65.js",
-    "static/media/Profile1.png": "/update/static/media/Profile1.a99d468ef54711c9ed1f.png",
-    "static/media/myProject.png": "/update/static/media/myProject.399f51e17668c6b5e893.png",
-    "static/media/construction.png": "/update/static/media/construction.439967ab74717c41969b.png",
-    "static/media/tourTravel.png": "/update/static/media/tourTravel.dff15a9a8c18045985c1.png",
-    "static/media/matrimony.png": "/update/static/media/matrimony.58f7568b4555ae6a37cd.png",
-    "static/media/zerokelvin.png": "/update/static/media/zerokelvin.4305ba619f5034592af7.png",
-    "static/media/jobportal.png": "/update/static/media/jobportal.94716523a7ee3b2d4470.png",
-    "static/media/NDHGO-Logo.png": "/update/static/media/NDHGO-Logo.65a77e1359073e0f1268.png",
-    "static/media/subhasis_santra.jpg": "/update/static/media/subhasis_santra.6943f9b3c1a11ea68177.jpg",
-    "static/media/mindcorp.png": "/update/static/media/mindcorp.d4272a60c67176b5b234.png",
-    "static/media/currency.png": "/update/static/media/currency.6e172e725479049656d1.png",
-    "index.html": "/update/index.html",
-    "main.803a9051.css.map": "/update/static/css/main.803a9051.css.map",
-    "main.56227a65.js.map": "/update/static/js/main.56227a65.js.map"
+    "main.css": "/static/css/main.803a9051.css",
+    "main.js": "/static/js/main.582552f0.js",
+    "static/media/Profile1.png": "/static/media/Profile1.a99d468ef54711c9ed1f.png",
+    "static/media/myProject.png": "/static/media/myProject.399f51e17668c6b5e893.png",
+    "static/media/construction.png": "/static/media/construction.439967ab74717c41969b.png",
+    "static/media/tourTravel.png": "/static/media/tourTravel.dff15a9a8c18045985c1.png",
+    "static/media/matrimony.png": "/static/media/matrimony.58f7568b4555ae6a37cd.png",
+    "static/media/zerokelvin.png": "/static/media/zerokelvin.4305ba619f5034592af7.png",
+    "static/media/jobportal.png": "/static/media/jobportal.94716523a7ee3b2d4470.png",
+    "static/media/NDHGO-Logo.png": "/static/media/NDHGO-Logo.65a77e1359073e0f1268.png",
+    "static/media/subhasis_santra.jpg": "/static/media/subhasis_santra.6943f9b3c1a11ea68177.jpg",
+    "static/media/mindcorp.png": "/static/media/mindcorp.d4272a60c67176b5b234.png",
+    "static/media/currency.png": "/static/media/currency.6e172e725479049656d1.png",
+    "index.html": "/index.html",
+    "main.803a9051.css.map": "/static/css/main.803a9051.css.map",
+    "main.582552f0.js.map": "/static/js/main.582552f0.js.map"
   },
   "entrypoints": [
     "static/css/main.803a9051.css",
-    "static/js/main.56227a65.js"
+    "static/js/main.582552f0.js"
   ]
 }
