@@ -1,4 +1,4 @@
-@import "../src/asset/Sass/index.scss";
+@import "../src/asset/Sass/index";
 
 body {
     font-family: "Segoe UI", sans-serif;
@@ -64,6 +64,14 @@ p {
 
 .d_flex {
     display: $flex;
+}
+
+.align-items {
+    align-items: $align-center
+}
+
+.mt_40 {
+    margin-top: $forty;
 }
 
 img {

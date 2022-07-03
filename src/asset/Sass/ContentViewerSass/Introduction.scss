@@ -1,8 +1,6 @@
 @import "../index";
 
-.align-items {
-    align-items: $align-center
-}
+
 
 .work_profile_body {
     & .work_profile_text {
@@ -36,6 +34,7 @@
     background-color: $white  !important;
     border-radius: 5px !important;
     gap: 17px;
+    @include all-box-shadow;
 
     & .project_pic {
         width: 150px;
@@ -47,9 +46,7 @@
         object-fit: contain;
         flex-shrink: 0;
         overflow: hidden;
-        box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
-        -webkit-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
-        -moz-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
+
 
         & img {
             border-radius: 5px;

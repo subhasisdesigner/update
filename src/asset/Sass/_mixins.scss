@@ -1,11 +1,16 @@
 @use "variable";
 @use "colors";
 
+@mixin all-box-shadow {
+    box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
+}
+
 @mixin box-shadow {
     box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
     -webkit-box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
     -moz-box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
-
 }
 
 @mixin flex-box-column {

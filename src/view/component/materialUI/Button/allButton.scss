@@ -1,0 +1,15 @@
+@import "../../../../asset/Sass/index";
+
+.view_more {
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+    gap: 11px;
+    color: #2497FB !important;
+    padding: 0px !important;
+
+    & span {
+        font-size: 1.8em;
+        line-height: 0;
+        font-weight: 400;
+    }
+}

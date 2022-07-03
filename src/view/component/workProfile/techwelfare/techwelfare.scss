@@ -1,7 +1,39 @@
 @import "../../../../asset/Sass/index";
 
-.techwelfare_project .MuiAvatar-root {
-    width: 120px;
-    height: 130px;
-    border-radius: 5px;
+.techwelfare_project {
+    @include flex-box;
+
+    & .project_item {
+        border-radius: $ten;
+        object-fit: contain;
+        flex-shrink: 0;
+        width: 120px;
+        background: #e1dede;
+        height: 135px;
+        margin-left: -60px;
+        overflow: hidden;
+        border: 2px solid #ebebeb;
+        @include all-box-shadow;
+
+        &:first-child {
+            margin: 0px;
+        }
+
+        & .more_project {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 135px;
+
+            & h3 {
+                font-weight: $SemiBold  !important;
+                margin-bottom: $ten;
+            }
+
+            & p {
+                color: $gray;
+            }
+
+        }
+    }
 }

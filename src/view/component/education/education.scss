@@ -1,0 +1,25 @@
+@import "../../../asset/Sass/index";
+
+.education_nfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $twenty-five;
+
+    & .nfo_item {
+        width: 75%;
+
+        & h5 {
+            color: $primery-color;
+            margin-bottom: $five;
+        }
+
+        & p {
+            font-size: 0.95em;
+
+        }
+    }
+
+    & h5 {
+        color: $purplle;
+    }
+}
