@@ -5,7 +5,7 @@ import underBuildPic from '../asset/construction.png'
 export default function UnderWork() {
   return (
     <div id="under_duild">
-      <div className="loading_wrapper">
+      <div className="loading_wrapper d-none">
         <div className="loader_container">
           <div className="state_pending">
             <span className="Under">This project work in progress</span>
