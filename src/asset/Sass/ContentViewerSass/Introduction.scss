@@ -10,9 +10,9 @@
 
         &::after {
             content: "";
-            width: 60px;
-            border-radius: 5px;
-            height: 3px;
+            width: $sixty;
+            border-radius: $five;
+            height: $three;
             background-color: $primery-color;
         }
     }
@@ -24,33 +24,32 @@
 
     & h4 {
         color: $primery-color;
-        margin-bottom: 10px;
+        margin-bottom: $ten;
     }
 }
 
 .project_body {
-    display: flex !important;
+    display: $flex  !important;
     justify-content: flex-start !important;
-    padding: 5px !important;
+    padding: $five  !important;
     background-color: $white  !important;
-    border-radius: 5px !important;
-    gap: 17px;
+    border-radius: $five  !important;
+    gap: $seventeen;
     @include all-box-shadow;
 
     & .project_pic {
         width: 150px;
         height: 75px;
-        border: 1px solid #DCDCDC;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
+        border: $onepx solid #DCDCDC;
+        border-radius: $five;
         object-fit: contain;
         flex-shrink: 0;
         overflow: hidden;
+        @include flex-box;
 
 
         & img {
-            border-radius: 5px;
+            border-radius: $five;
         }
     }
 }
@@ -59,15 +58,15 @@
     flex-grow: $one;
 
     & span {
-        position: absolute;
-        right: 17px;
+        position: $position-absolute;
+        right: $seventeen;
         color: $primery-color;
-        bottom: 13px;
+        bottom: $twelve;
     }
 
     & h3 {
         font-size: 1.1em;
-        font-weight: 600 !important;
+        font-weight: $SemiBold  !important;
         margin-bottom: $five;
         color: $work-profile-main;
     }

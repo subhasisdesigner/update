@@ -5,14 +5,14 @@
         margin-top: $thirty;
 
         & .skills_knowledge_info h3 {
-            margin-bottom: 11px;
+            margin-bottom: $ten;
             font-size: 1.1em;
         }
 
         & img {
             border-radius: $fifty-parents;
             object-fit: contain;
-            flex-shrink: 0;
+            flex-shrink: $zero;
             width: $fifty-five;
             height: $fifty-five;
             @include all-box-shadow;
@@ -22,7 +22,7 @@
 }
 
 .progress_body {
-    position: relative;
+    position: $position-relative;
 
     & .progress_bar {
         height: $ten;
@@ -40,16 +40,16 @@
     & .count {
         width: $hundred-parents;
         text-align: right;
-        position: absolute;
-        right: 0;
-        top: -23px;
-        font-size: 16px;
+        position: $position-absolute;
+        right: $zero;
+        top: -$twenty-three;
+        font-size: $fifteen;
         font-weight: $SemiBold;
     }
 }
 
 .more_skills_body {
-    margin-top: 30px;
+    margin-top: $thirty;
 
     & .more_skills {
         @include flex-box;
@@ -58,25 +58,25 @@
             @include all-box-shadow;
             border-radius: $fifty-parents;
             object-fit: contain;
-            flex-shrink: 0;
-            width: 60px;
+            flex-shrink: $zero;
+            width: $sixty;
             background: #e1dede;
-            height: 60px;
-            margin-left: -17px;
+            height: $sixty;
+            margin-left: -$seventeen;
             overflow: hidden;
-            border: 3px solid $white;
+            border: $three solid $white;
 
             &:first-child {
-                margin: 0px;
+                margin: $zero;
             }
 
             & .more_skills_btn {
                 @include flex-box-center;
-                height: 60px;
+                height: $sixty;
 
                 & h3 {
                     font-weight: $SemiBold  !important;
-                    margin-bottom: 2px;
+                    margin-bottom: $two;
                 }
 
                 & p {

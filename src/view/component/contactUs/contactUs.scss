@@ -1,7 +1,7 @@
 @import "../../../asset/Sass/index";
 
 .contact_info_body {
-    margin-bottom: 30px;
+    margin-bottom: $thirty;
 
     & .contact_icon {
         & i {
@@ -13,7 +13,7 @@
     & .contact_info {
         & p {
             font-size: 0.9em;
-            margin-top: 5px;
+            margin-top: $five;
             color: #4A4A4A;
         }
 

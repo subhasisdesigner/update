@@ -2,14 +2,14 @@
 
 .view_more {
     text-transform: capitalize !important;
-    font-weight: 500 !important;
-    gap: 11px;
-    color: #2497FB !important;
-    padding: 0px !important;
+    font-weight: $SemiBold  !important;
+    gap: $ten;
+    color: $primery-color  !important;
+    padding: $zero  !important;
 
     & span {
         font-size: 1.8em;
         line-height: 0;
-        font-weight: 400;
+        font-weight: $Medium;
     }
 }

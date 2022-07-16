@@ -5,12 +5,12 @@
     min-height: $hundred-parents;
 
     & .MuiPaper-root {
-        border-radius: 0 40px 30px 0;
-        border: 0;
+        border-radius: $zero $forty $thirty $zero;
+        border: $zero;
     }
 
     & .menu_bar {
-        position: absolute;
+        position: $position-absolute;
     }
 
 }
@@ -18,17 +18,17 @@
 .left_panel {
     min-height: $hundred-parents;
     background: $white;
-    border-radius: 0 40px 30px 0;
+    border-radius: $zero $forty $thirty $zero;
 
     & .menu_sidebar {
         background: $primery-color;
         min-height: $hundred-parents;
-        border-radius: 0 40px 30px 0;
-        padding: 25px 5px 20px 5px;
+        border-radius: $zero $forty $thirty $zero;
+        padding: $twenty-five $five $twenty $five;
         @include flex-box-column;
-        box-shadow: 1px 2px 18px 0px rgba(36, 151, 251, 0.44);
-        -webkit-box-shadow: 1px 2px 18px 0px rgba(36, 151, 251, 0.44);
-        -moz-box-shadow: 1px 2px 18px 0px rgba(36, 151, 251, 0.44);
+        box-shadow: $onepx $two 18px $zero rgba(36, 151, 251, 0.44);
+        -webkit-box-shadow: $onepx $two 18px $zero rgba(36, 151, 251, 0.44);
+        -moz-box-shadow: $onepx $two 18px $zero rgba(36, 151, 251, 0.44);
 
         & .my_pic {
             width: $forty-five;
@@ -36,8 +36,8 @@
             overflow: hidden;
             border-radius: $fifty-parents;
             object-fit: contain;
-            flex-shrink: 0;
-            border: 2px solid $white;
+            flex-shrink: $zero;
+            border: $two solid $white;
             @include box-shadow;
         }
     }
@@ -57,7 +57,7 @@
     }
 
     & a {
-        margin-top: 15px;
+        margin-top: $fifteen;
     }
 
     & .facebook {
@@ -100,32 +100,32 @@
 
 .menu {
     flex-grow: $one;
-    padding: 25px 15px 15px 25px;
+    padding: $twenty-five $fifteen $fifteen $twenty-five;
 
     .profile {
 
         & p {
             font-size: 0.75em;
-            font-weight: 600;
+            font-weight: $SemiBold;
             color: $primery-color;
         }
 
         & h1 {
             font-size: 1.1em;
-            font-weight: 500;
+            font-weight: $Medium;
         }
     }
 
     .menu_item {
         @include menu-item-flex-box;
-        margin-top: 55px;
+        margin-top: $fifty-five;
 
         & a {
             @include flex-box;
             color: $gray;
             font-size: 0.9em;
             font-weight: $Medium;
-            gap: 16px;
+            gap: $fifteen;
 
             & i {
                 @include menu-icon;
@@ -160,16 +160,15 @@
 }
 
 .copy_right {
-    position: fixed;
-    bottom: 30px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-    padding: 12px 45px 12px 15px;
-    gap: 10px;
+    position: $position-fixed;
+    bottom: $thirty;
+    left: $ten;
+    padding: $twelve $forty-five $twelve $fifteen;
+    gap: $ten;
     background-color: #EFF8FF;
-    border-radius: 80px 25px 80px 25px;
-    border: 1px solid #8BC9F5;
+    border-radius: $eighty $twenty-five $eighty $twenty-five;
+    border: $onepx solid #8BC9F5;
+    @include flex-box;
 
     & i {
         font-size: 1.4em;

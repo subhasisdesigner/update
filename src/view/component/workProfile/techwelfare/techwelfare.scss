@@ -6,17 +6,17 @@
     & .project_item {
         border-radius: $ten;
         object-fit: contain;
-        flex-shrink: 0;
+        flex-shrink: $zero;
         width: 122px;
         background: #e1dede;
         height: 135px;
-        margin-left: -61px;
+        margin-left: -$sixty;
         overflow: hidden;
-        border: 2px solid #ebebeb;
+        border: $two solid #ebebeb;
         @include all-box-shadow;
 
         &:first-child {
-            margin: 0px;
+            margin: $zero;
         }
 
         & .more_project {

@@ -34,23 +34,22 @@
 // box-shadow
 
 @mixin all-box-shadow {
-    box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
-    -webkit-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
-    -moz-box-shadow: 10px 10px 20px 0px rgba(57, 56, 56, 0.1);
+    box-shadow: variable.$ten variable.$ten variable.$twenty variable.$zero rgba(57, 56, 56, 0.1);
+    -webkit-box-shadow: variable.$ten variable.$ten variable.$twenty variable.$zero rgba(57, 56, 56, 0.1);
+    -moz-box-shadow: variable.$ten variable.$ten variable.$twenty variable.$zero rgba(57, 56, 56, 0.1);
 }
 
 @mixin box-shadow {
-    box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
-    -webkit-box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
-    -moz-box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
+    box-shadow: variable.$onepx variable.$five variable.$eighteen variable.$zero rgba(130, 127, 127, 0.75);
+    -webkit-box-shadow: variable.$onepx variable.$five variable.$eighteen variable.$zero rgba(130, 127, 127, 0.75);
+    -moz-box-shadow: variable.$onepx variable.$five variable.$eighteen variable.$zero rgba(130, 127, 127, 0.75);
 }
 
 @mixin social-media-box-shadow {
-    box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.29);
-    -webkit-box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: variable.$five variable.$nine variable.$twenty variable.$zero rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: variable.$five variable.$nine variable.$twenty variable.$zero rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: variable.$five variable.$nine variable.$twenty variable.$zero rgba(0, 0, 0, 0.29);
 }
-
 
 
 
@@ -59,9 +58,6 @@
     padding: variable.$eight;
     font-size: 1.3em;
     border-radius: variable.$ten;
-    // box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.09);
-    // -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.09);
-    // -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.09);
 }
 
 @mixin contactus-icon {
