@@ -7,10 +7,10 @@
         border-radius: $ten;
         object-fit: contain;
         flex-shrink: 0;
-        width: 120px;
+        width: 122px;
         background: #e1dede;
         height: 135px;
-        margin-left: -60px;
+        margin-left: -61px;
         overflow: hidden;
         border: 2px solid #ebebeb;
         @include all-box-shadow;
@@ -20,9 +20,7 @@
         }
 
         & .more_project {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+            @include flex-box-center;
             height: 135px;
 
             & h3 {

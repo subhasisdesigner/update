@@ -74,6 +74,10 @@ p {
     gap: 20px;
 }
 
+.gap_40 {
+    gap: 40px;
+}
+
 .align_items {
     align-items: $align-center
 }
@@ -91,7 +95,7 @@ img {
 }
 
 .main_content {
-    padding: 25px 45px !important;
+    padding: 25px !important;
 }
 
 .main_body {

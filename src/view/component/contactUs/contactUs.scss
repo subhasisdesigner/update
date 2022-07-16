@@ -1,0 +1,93 @@
+@import "../../../asset/Sass/index";
+
+.contact_info_body {
+    margin-bottom: 30px;
+
+    & .contact_icon {
+        & i {
+            @include contactus-icon;
+        }
+
+    }
+
+    & .contact_info {
+        & p {
+            font-size: 0.9em;
+            margin-top: 5px;
+            color: #4A4A4A;
+        }
+
+    }
+}
+
+.contact_address {
+    & h4 {
+        color: $address-color;
+    }
+
+    & i {
+        color: $address-color;
+        background: $address-bgcolor;
+        border: 1px solid $address-broder;
+    }
+}
+
+.contact_number {
+    & h4 {
+        color: $contact-number-color;
+    }
+
+    & i {
+        color: $contact-number-color;
+        background: $contact-number-bgcolor;
+        border: 1px solid $contact-number-broder;
+    }
+}
+
+.contact_whatsapp {
+    & h4 {
+        color: $whatsApp-color;
+    }
+
+    & i {
+        color: $whatsApp-color;
+        background: $WhatsApp-bgcolor;
+        border: 1px solid $WhatsApp-broder;
+    }
+}
+
+.contact_email {
+    & h4 {
+        color: $email-color;
+    }
+
+    & i {
+        color: $email-color;
+        background: $email-bgcolor;
+        border: 1px solid $email-broder;
+    }
+}
+
+.contact_skype {
+    & h4 {
+        color: $skype-color;
+    }
+
+    & i {
+        color: $skype-color;
+        background: $skype-bgcolor;
+        border: 1px solid $skype-broder;
+    }
+}
+
+.contact_linkedin {
+    & h4 {
+        color: $linkedin-color;
+    }
+
+    & i {
+        color: $linkedin-color;
+        background: $linkedin-bgcolor;
+        border: 1px solid $linkedin-broder;
+    }
+}

@@ -10,6 +10,8 @@ import SenrysaTechnologiesProjects from "../component/workProfile/senrysaTechnol
 import TechwelfareProjects from "../component/workProfile/techwelfare";
 import Education from "../component/education";
 import SkillsKnowledge from "../component/skillsKnowledge";
+import ContactUs from "../component/contactUs";
+
 
 export default function LandingPage() {
   const [state, setState] = useState();
@@ -38,7 +40,8 @@ export default function LandingPage() {
             <Grid item xs={12} sm={12} md={8}>
               <ProfilePic />
             </Grid>
-
+          </Grid>
+          <Grid container spacing={10}>
             <Grid item xs={12} sm={12} md={6}>
               <div className="work_profile_body">
                 <h2 className="work_profile_text">Skills & Knowledge</h2>
@@ -46,9 +49,9 @@ export default function LandingPage() {
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
-              <div className="work_profile_body d-none">
+              <div className="work_profile_body">
                 <h2 className="work_profile_text">Contact Us</h2>
-                <SkillsKnowledge />
+                <ContactUs />
               </div>
             </Grid>
           </Grid>

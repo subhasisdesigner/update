@@ -3,7 +3,6 @@ import { LoadingContext } from "react-router-loading";
 
 import loadData from "../../Config/LoadingBar"
 import Education from "../component/education";
-import SkillsKnowledge from "../component/skillsKnowledge";
 export default function About() {
   const [state, setState] = useState();
   const loadingContext = useContext(LoadingContext);
@@ -23,7 +22,6 @@ export default function About() {
   return (
     <div className="App">
       <Education />
-      <SkillsKnowledge />
     </div>
   );
 }
