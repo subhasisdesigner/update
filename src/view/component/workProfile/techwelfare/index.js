@@ -1,13 +1,12 @@
 import React from "react";
 import './techwelfare.scss';
-import ndhgoPic from "../../../../asset/Images/NDHGO-Logo.png";
 import MatrimonyPic from "../../../../asset/Images/techwelfare-project/matrimony.png";
 import JobportalPic from "../../../../asset/Images/techwelfare-project/jobportal.png";
 import MindcorpPic from "../../../../asset/Images/techwelfare-project/mindcorp.png";
 import ZerokelvinPic from "../../../../asset/Images/techwelfare-project/zerokelvin.png";
 import CurrencyPic from "../../../../asset/Images/techwelfare-project/currency.png";
 import TourTravelyPic from "../../../../asset/Images/techwelfare-project/tourTravel.png";
-import { CardActionArea } from '@mui/material';
+import CardActionArea from '@mui/material/CardActionArea';
 
 export default function myProject() {
     return (

@@ -6,6 +6,7 @@
     & .work_profile_text {
         @include flex-box-space;
         margin-bottom: $forty-five;
+        font-size: 1.3em;
 
         &::after {
             content: "";

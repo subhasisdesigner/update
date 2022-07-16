@@ -25,9 +25,9 @@ export default function LeftPanel() {
           <IconButton className="mail" aria-label="mail" href="mailto:santrasubhasis15@gmail.com" title="santrasubhasis15@gmail.com" target="_blanck">
             <i className="ri-mail-send-fill"></i>
           </IconButton>
-          {/* <IconButton className="linkedin" aria-label="linkedin" href="https://www.linkedin.com/in/subhasis-santra-501a221b4/" title="Subhasis Santr on linkedin" target="_blanck">
-        <i className="ri-linkedin-fill"></i>
-        </IconButton> */}
+          <IconButton className="linkedin" aria-label="linkedin" href="https://www.linkedin.com/in/subhasis-santra-501a221b4/" title="Subhasis Santr on linkedin" target="_blanck">
+            <i className="ri-linkedin-fill"></i>
+          </IconButton>
           <IconButton className="phone" aria-label="phone" href="tel:+91-8001473178" title="Call now" target="_blanck">
             <i className="ri-phone-fill"></i>
           </IconButton>

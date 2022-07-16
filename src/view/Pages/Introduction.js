@@ -31,7 +31,7 @@ export default function LandingPage() {
     <div className="content_body">
       <Grid container spacing={{ xs: 3, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={12} sm={12} md={8} lg={8}>
-          <Grid container spacing={2} className="align-items">
+          <Grid container spacing={2} className="align_items">
             <Grid item xs={12} sm={12} md={4}>
               <ProfileInfo />
             </Grid>
@@ -40,7 +40,7 @@ export default function LandingPage() {
             </Grid>
 
             <Grid item xs={12} sm={12} md={6}>
-              <div className="work_profile_body d-none">
+              <div className="work_profile_body">
                 <h2 className="work_profile_text">Skills & Knowledge</h2>
                 <SkillsKnowledge />
               </div>

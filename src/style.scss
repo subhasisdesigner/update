@@ -66,12 +66,24 @@ p {
     display: $flex;
 }
 
-.align-items {
+.flex_grow1 {
+    flex-grow: 1;
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+.align_items {
     align-items: $align-center
 }
 
 .mt_40 {
     margin-top: $forty;
+}
+
+.w_100 {
+    width: 100%;
 }
 
 img {

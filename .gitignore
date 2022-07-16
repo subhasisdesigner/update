@@ -10,7 +10,6 @@
 
 # production
 /build
-/src/underWorking
 
 # misc
 .DS_Store
