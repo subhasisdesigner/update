@@ -4,9 +4,11 @@ import LeftPanel from "../view/component/leftPanel";
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import { NavLink } from "react-router-dom";
 
-
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import MoreIcon from '@mui/icons-material/MoreVert';
 
 export default function MainView(props) {
   const { window } = props;
@@ -28,7 +30,10 @@ export default function MainView(props) {
         sx={{ width: { md: drawerWidth }, flexShrink: { md: 0 } }}
         aria-label="mailbox folders"
       >
-        <IconButton
+        {/*start AppBar */}
+
+
+        {/* <CardActionArea
           className="menu_bar"
           color="inherit"
           aria-label="open drawer"
@@ -42,7 +47,37 @@ export default function MainView(props) {
           }}
         >
           <MenuIcon />
-        </IconButton>
+        </CardActionArea> */}
+        {/* <AppBarMenu
+          sx={{
+            mr: 2, display: { md: 'none' },
+            width: { md: `calc(100% - ${drawerWidth}px)` },
+            ml: { md: `${drawerWidth}px` },
+          }}
+        /> */}
+        <div className="appbar" sx={{
+          mr: 2, display: { md: 'none' },
+          width: { md: `calc(100% - ${drawerWidth}px)` },
+          ml: { md: `${drawerWidth}px` },
+        }}>
+          <AppBar position="fixed" color="primary" sx={{ top: 'auto', bottom: 0 }}>
+            <Toolbar>
+              <IconButton color="inherit">
+                <NavLink exact className="introduction" activeClassName="active_menu" to="/update"><i className="ri-mic-fill"></i></NavLink>
+              </IconButton>
+              <IconButton color="inherit" aria-label="open drawer">
+                <NavLink exact className="skills" activeClassName="active_menu" to="/update/about"><i className="ri-user-settings-fill"></i></NavLink>
+              </IconButton>
+              <IconButton color="inherit" onClick={handleDrawerToggle}>
+                <MoreIcon />
+              </IconButton>
+            </Toolbar>
+          </AppBar>
+        </div>
+
+        {/*end start AppBar */}
+
+
         {/* mobile view */}
         <Drawer
           container={container}

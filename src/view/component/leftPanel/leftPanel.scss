@@ -11,8 +11,15 @@
 
     & .menu_bar {
         position: $position-absolute;
+        padding: 10px;
+        z-index: 999;
+        background-color: #ccc !important;
     }
 
+}
+
+.appbar {
+    display: none;
 }
 
 .left_panel {
