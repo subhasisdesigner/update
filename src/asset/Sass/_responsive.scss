@@ -18,7 +18,11 @@
 }
 
 @media (max-width: 899px) {
-    .appbar {
+    .coming {
+        height: 75vh;
+    }
+
+    .appbar_body {
         display: block !important;
     }
 

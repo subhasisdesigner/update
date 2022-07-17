@@ -18,9 +18,6 @@
 
 }
 
-.appbar {
-    display: none;
-}
 
 .left_panel {
     min-height: $hundred-parents;
@@ -190,3 +187,91 @@
         font-size: 0.8em;
     }
 }
+
+//start bottom app bar 
+
+
+.appbar_body {
+    display: none;
+
+    & .appbar {
+        border-radius: 0 !important;
+        background-color: white;
+    }
+
+    & .appbar_item_body {
+        // padding: 0 !important;
+        min-height: 55px;
+
+        & .appbar_item {
+            display: inherit;
+            min-height: 48px;
+
+            & .more_app {
+                color: #2497FB;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                border-radius: 6px;
+                font-weight: 600;
+                padding: 6px 20px 6px 5px;
+                margin-right: -27px;
+                background: #c9e6ff;
+            }
+
+            & i {
+                font-size: 1.6em;
+            }
+
+            & .fa-tools {
+                font-size: 1.4em;
+            }
+
+            & .active_menu {
+                & .profile_menu {
+                    border: 2px solid #2497FB;
+                }
+            }
+
+            & .profile_menu {
+                position: relative;
+                width: 45px;
+                height: 45px;
+                overflow: visible;
+                border-radius: 50%;
+                object-fit: contain;
+                flex-shrink: 0px;
+                border: 2px solid white;
+                box-shadow: 1px 5px 18px 0px rgb(130 127 127 / 75%);
+                -webkit-box-shadow: 1px 5px 18px 0px rgb(130 127 127 / 75%);
+                -moz-box-shadow: 1px 5px 18px 0px rgba(130, 127, 127, 0.75);
+
+                & i {
+                    position: absolute !important;
+                    left: 50%;
+                    transform: translateX(45%);
+                    z-index: 1;
+                    font-size: 1.2em;
+                    color: #2497FB;
+                    width: 21px;
+                    height: 21px;
+                    display: flex !important;
+                    justify-content: center;
+                    align-items: center;
+                    background: #EEF8FF;
+                    /* background-image: linear-gradient(#dfe0e4 10%, #b4bed2 30%, #697685); */
+                    border-radius: 5px;
+                    bottom: -5px;
+                }
+
+                & img {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+
+
+//end bottom app bar 

@@ -44,11 +44,11 @@ export default function LeftPanel() {
           </div>
           <div className="menu_item">
             <NavLink exact className="introduction" activeClassName="active_menu" to="/update"><i className="ri-mic-fill"></i>Introduction</NavLink>
-            <NavLink exact className="skills" activeClassName="active_menu" to="/update/about"><i className="ri-user-settings-fill"></i>Skills & Knowledge</NavLink>
-            <NavLink exact className="work" activeClassName="active_menu" to=""><i className="fas fa-tools"></i>Work Profile</NavLink>
-            <NavLink exact className="education" activeClassName="active_menu" to=""><i className="fas fa-book-reader"></i>Education</NavLink>
-            <NavLink exact className="professional" activeClassName="active_menu" to=""><i className="fas fa-user-graduate"></i>Qualifications</NavLink>
-            <NavLink exact className="contact" activeClassName="active_menu" to=""><i className="fas fa-id-card-alt"></i>Contact</NavLink>
+            <NavLink exact className="skills" activeClassName="active_menu" to="/update/coming-soon"><i className="ri-user-settings-fill"></i>Skills & Knowledge</NavLink>
+            <NavLink exact className="work" activeClassName="active_menu" to="/update/coming-soon"><i className="fas fa-tools"></i>Work Profile</NavLink>
+            <NavLink exact className="education" activeClassName="active_menu" to="/update/coming-soon"><i className="fas fa-book-reader"></i>Education</NavLink>
+            <NavLink exact className="professional" activeClassName="active_menu" to="/update/coming-soon"><i className="fas fa-user-graduate"></i>Qualifications</NavLink>
+            <NavLink exact className="contact" activeClassName="active_menu" to="/update/coming-soon"><i className="fas fa-id-card-alt"></i>Contact</NavLink>
           </div>
           <div className="copy_right">
             <i className="ri-quill-pen-fill"></i><span>Design by <strong>Subhasis Santra</strong></span>
