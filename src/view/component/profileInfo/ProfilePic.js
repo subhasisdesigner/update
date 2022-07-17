@@ -3,7 +3,7 @@ import ProfilePics from "../../../asset/Images/Profile1.png";
 
 export default function ProfilePic() {
     return (
-        <div className="sub_content_body">
+        <div className="profile_pic">
             <img src={ProfilePics} />
         </div>
     );

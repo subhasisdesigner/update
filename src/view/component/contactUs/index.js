@@ -13,12 +13,12 @@ export default function ContactUs() {
     return (
         <div className="contact_body">
             <Address />
-            <div className="d_flex align_items gap_40">
+            <div className="responsive_flex d_flex align_items gap_40">
                 <ContactNumber />
                 <WhatsApp />
             </div>
             <Email />
-            <div className="d_flex align_items gap_40">
+            <div className="responsive_flex d_flex align_items gap_40">
                 <Skype />
                 <Linkedin />
             </div>

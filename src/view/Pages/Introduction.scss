@@ -1,8 +1,9 @@
-@import "../index";
+@import "../../asset/Sass/index";
 
 
 
 .work_profile_body {
+
     & .work_profile_text {
         @include flex-box-space;
         margin-bottom: $forty-five;

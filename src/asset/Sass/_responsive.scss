@@ -1,0 +1,19 @@
+@use "variable";
+@use "mixins";
+@use "colors";
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .responsive_width_100 {
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .responsive_flex {
+        flex-direction: column;
+        gap: 0 !important;
+        align-items: baseline !important;
+    }
+}
