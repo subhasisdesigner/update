@@ -107,44 +107,7 @@ img {
     display: none;
 }
 
-.loading_wrapper {
-    position: $position-fixed;
-    z-index: 9999;
-    top: $zero;
-    left: $zero;
-    width: $hundred-parents;
-    height: $hundred-parents;
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
-.loader_container {
-    position: $position-absolute;
-    top: $fifty-parents;
-    left: $zero;
-    right: $zero;
-    transform: translateY(-$fifty-parents);
-    display: block;
-    width: 40%;
-    border-radius: $six;
-    margin: auto;
-    min-height: $eighty;
-}
-
-.Under {
-    z-index: 999;
-    position: $position-absolute;
-    left: $zero;
-    right: $zero;
-    top: $zero;
-    background: #2497FB;
-    width: 242px;
-    margin: auto;
-    color: white;
-    height: $thirty-two;
-    padding: $fifteen;
-    border-bottom-left-radius: $ten;
-    border-bottom-right-radius: $ten;
-}
 
 .state_pending .copy_right {
     padding: $fifteen;
@@ -154,38 +117,4 @@ img {
     width: 200px;
     margin: auto;
     font-size: 0.8em;
-}
-
-.state_pending {
-    position: $position-absolute;
-    top: $fifty-parents;
-    transform: translateY(-$fifty-parents);
-    left: $zero;
-    width: $hundred-parents;
-    line-height: 0;
-    text-align: center;
-    background: white;
-    padding: $five;
-    border-radius: 17px;
-}
-
-
-.state_pending img {
-    border-radius: 15px;
-}
-
-// #under_duild {
-//     position: $position-fixed;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     z-index: 99999;
-//     overflow: hidden;
-// }
-
-@media (max-width: 600px) {
-    .loader_container {
-        width: 90%;
-    }
 }
